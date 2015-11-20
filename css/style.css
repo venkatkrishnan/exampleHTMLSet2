@@ -1,0 +1,79 @@
+.wrap {
+  margin: auto;
+  width: 80%;
+  min-width: 600px;
+  font-family: sans-serif;
+}
+
+.content, aside {
+  height: 600px;
+}
+
+.content {
+  background: red;
+  float: left;
+  width: 80%;
+}
+
+aside {
+  background: green;
+  float: left;
+  width: 20%;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside li {
+  display: inline;
+  padding-right: 10px;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+ul a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+form {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+form li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+}
+
+#example {
+  background: url(../img/logo_mypage.gif) no-repeat;
+  text-indent: -9999px;
+  width: 327px;
+  height: 70px;
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+  background: red;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
